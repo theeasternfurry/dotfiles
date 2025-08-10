@@ -1,0 +1,16 @@
+[general]
+import = [
+  "themes/catppuccin-latte.toml"
+]
+
+[font.normal]
+family = "Jetbrains Mono Nerd Font"
+style = "Regular"
+
+[terminal]
+shell = "fish"
+
+[window]
+decorations = "None"
+decorations_theme_variant = "Light"
+opacity = 0.75

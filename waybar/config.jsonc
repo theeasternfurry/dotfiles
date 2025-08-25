@@ -17,6 +17,9 @@
     ],
     "modules-right": [
         "tray",
+        "pulseaudio",
+        "backlight",
+        "battery",
         "clock"
     ],
     // Modules configuration

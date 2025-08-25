@@ -3,8 +3,11 @@ import = [
   "themes/catppuccin-latte.toml"
 ]
 
+[font]
+size = 14.0
+
 [font.normal]
-family = "Jetbrains Mono Nerd Font"
+family = "Iosevka Nerd Font"
 style = "Regular"
 
 [terminal]

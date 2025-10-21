@@ -254,11 +254,8 @@ layout {
 // Note that running niri as a session supports xdg-desktop-autostart,
 // which may be more convenient to use.
 // See the binds section below for more spawn examples.
-spawn-at-startup "waybar"
+spawn-at-startup "noctalia-shell"
 spawn-at-startup "fcitx5"
-spawn-at-startup "xwayland-satellite"
-spawn-at-startup "swww-daemon"
-spawn-at-startup "swww img ~/Pictures/Wallpaper/landscape_art_road_127350_1920x1080.jpg"
 
 // Environment
 environment {
@@ -357,8 +354,8 @@ binds {
     Mod+Shift+Slash { show-hotkey-overlay; }
 
     // Suggested binds for running programs: terminal, app launcher, screen locker.
-    Mod+T hotkey-overlay-title="Open a Terminal: wezterm" { spawn "alacritty"; }
-    Mod+P hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
+    Mod+T hotkey-overlay-title="Open a Terminal: wezterm" { spawn "wezterm"; }
+    Mod+P hotkey-overlay-title="Applican launcher" { spawn "noctalia-shell" "ipc" "call" "launcher" "toggle"; }
     Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
 
     // You can also use a shell. Do this if you need pipes, multiple commands, etc.

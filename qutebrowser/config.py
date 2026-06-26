@@ -15,6 +15,8 @@ c.fileselect.single_file.command = ['zenity', '--file-selection', '--title=Selec
 c.fileselect.multiple_files.command = ['zenity', '--file-selection', '--multiple', '--title=Select Files']
 c.fileselect.folder.command = ['zenity', '--file-selection', '--directory', '--title=Select Folder']
 
+c.window.hide_decoration = True
+
 c.tabs.position = "left"
 c.tabs.show = 'switching'
 

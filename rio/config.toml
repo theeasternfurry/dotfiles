@@ -1,0 +1,38 @@
+theme = "noctalia"
+# See the full configuration reference: https://rioterm.com/docs/config
+
+
+[window]
+decorations = "disabled"
+opacity = 0.6
+opacity-cells = true
+
+[shell]
+program = "fish"
+
+
+
+[fonts]
+size = 16
+features = []
+use-drawable-chars = true
+symbol-map = []
+disable-warnings-not-found = false
+additional-dirs = []
+
+[fonts.regular]
+family = "iosevka nerd font mono"
+style = "default"
+
+[fonts.bold]
+family = "iosevka nerd font mono"
+style = "default"
+
+[fonts.italic]
+family = "iosevka nerd font mono"
+style = "default"
+
+[fonts.bold-italic]
+family = "iosevka nerd font mono"
+style = "default"
+

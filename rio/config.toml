@@ -4,21 +4,24 @@ theme = "noctalia"
 
 [window]
 decorations = "disabled"
-opacity = 0.6
+blur = true
+opacity = 0.7
 opacity-cells = true
 
 [shell]
 program = "fish"
 
-
-
 [fonts]
 size = 16
 features = []
 use-drawable-chars = true
-symbol-map = []
 disable-warnings-not-found = false
 additional-dirs = []
+symbol-map = [
+  { start = "4E00", end = "9FFF", font-family = "Noto Sans Mono CJK SC" },
+  { start = "3400", end = "4DBF", font-family = "Noto Sans Mono CJK SC" },
+  { start = "AC00", end = "D7AF", font-family = "Noto Sans Mono CJK SC" },
+]
 
 [fonts.regular]
 family = "iosevka nerd font mono"
